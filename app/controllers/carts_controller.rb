@@ -1,5 +1,10 @@
+# frozen_string_literal: true
+
+# Carts controller
 class CartsController < ApplicationController
   before_action :set_cart, only: [:show, :edit, :update, :destroy]
+  skip_before_action :authorize, only: [:create, :update, :destroy]
+  
   rescue_from ActiveRecord::RecordNotFound, with: :invalid_cart
 
   # GET /carts
