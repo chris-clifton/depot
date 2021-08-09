@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-test githubscanner test #2
+test githubscanner test #3
