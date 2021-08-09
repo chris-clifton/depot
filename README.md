@@ -23,4 +23,4 @@ Things you may want to cover:
 
 * ...
 
-test githubscanner (second repo)
+test githubscanner test #2
